@@ -5,7 +5,7 @@ import Grid, { MiniGrid } from "./components/grid";
 import './index.css'; 
 
 // Replace with your DEPLOYED backend URL later
-const socket = io.connect("http://localhost:3001");
+const socket = io.connect("https://wordle-wars-vt0k.onrender.com");
 
 function WordleGame({ solution, multiplayer, onUpdate }) {
   const { currentGuess, handleKeyup, guesses, isCorrect, turn, formatGuess } = useWordle(solution);
