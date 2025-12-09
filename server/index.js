@@ -14,7 +14,7 @@ const io = new Server(server, {
   },
 });
 
-const WORDS = ["REACT", "BUILD", "CODE", "PIZZA", "WORLD", "GHOST", "ALERT"];
+const WORDS = ["REACT", "BUILD", "CODEx", "PIZZA", "WORLD", "GHOST", "ALERT"];
 
 // 🧠 MEMORY: Store active games here
 const roomState = {}; 
